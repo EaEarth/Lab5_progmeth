@@ -32,7 +32,7 @@ public class BarChartPane extends VBox {
 		this.setBorder(new Border(new BorderStroke(Color.LIGHTGRAY, SOLID, 
 		CornerRadii.EMPTY, BorderWidths.DEFAULT)));
 		this.setAlignment(Pos.TOP_CENTER);
-		this.prefWidth(400);
+		this.setPrefWidth(400);
 		this.setPadding(new Insets(10));
 		this.setSpacing(10);
 		
